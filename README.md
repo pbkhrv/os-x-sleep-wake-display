@@ -22,3 +22,11 @@ How to build from command line
 2. In terminal, cd into the project directory.
 3. Run 'xcodebuild'.
 4. Executable will be found in 'build/Release/displayctl'.
+
+
+Notes
+-----
+
+* This utility puts to sleep ALL connected displays (tested with an external Apple display attached to an MBP).
+* Tested on Intel MBP, OS X 10.6.8 and 10.7.5.
+
